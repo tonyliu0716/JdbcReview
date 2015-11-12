@@ -1,4 +1,4 @@
-package com.danibuiza.javacodegeeks.jdbc;
+package com.JdbcReview.JDBCDemo.jdbc;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;

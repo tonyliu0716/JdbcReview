@@ -1,4 +1,4 @@
-package com.danibuiza.javacodegeeks.jdbc;
+package com.JdbcReview.JDBCDemo.jdbc;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;

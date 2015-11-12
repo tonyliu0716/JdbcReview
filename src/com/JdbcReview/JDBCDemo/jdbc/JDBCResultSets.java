@@ -1,4 +1,4 @@
-package com.danibuiza.javacodegeeks.jdbc;
+package com.JdbcReview.JDBCDemo.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,12 +9,12 @@ import java.sql.Statement;
 public class JDBCResultSets
 {
     /*
-     * 
-     * 
+     *
+     *
      * modifying cursor
-     * 
+     *
      * update values
-     * 
+     *
      * inesrting rows
      */
 
@@ -31,7 +31,7 @@ public class JDBCResultSets
 
     /**
      * select statement and print out results in a JDBC result set
-     * 
+     *
      * @param conn
      * @throws SQLException
      */
