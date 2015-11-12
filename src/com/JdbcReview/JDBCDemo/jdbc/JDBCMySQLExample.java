@@ -9,8 +9,8 @@ import java.sql.Statement;
 /**
  * This class is a first example of JDBC usage: shows how to open a connection using a mysql driver,
  * it makes a first select query and read the results
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCMySQLExample
 {
@@ -25,16 +25,16 @@ public class JDBCMySQLExample
         Connection connect = DriverManager.getConnection( "jdbc:mysql://localhost/countries?"
             + "user=root&password=root" );
 
-       
+
         selectAll( connect );
 
         // close resources, in case of exception resources are not properly cleared
 
     }
-    
+
     /**
      * select statement and print out results in a JDBC result set
-     * 
+     *
      * @param conn
      * @throws SQLException
      */

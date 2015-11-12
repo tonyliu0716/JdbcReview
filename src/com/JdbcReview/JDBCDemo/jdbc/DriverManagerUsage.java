@@ -7,8 +7,8 @@ import java.util.Enumeration;
 
 /**
  * Example of usages of DriverManager, not recommended to do manually
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class DriverManagerUsage
 {

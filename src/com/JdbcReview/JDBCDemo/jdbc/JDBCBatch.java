@@ -10,8 +10,8 @@ import java.sql.Statement;
 /**
  * This class provides some examples of how to use batch updates within statement and prepared
  * statements in jdbc
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCBatch
 {
@@ -34,7 +34,7 @@ public class JDBCBatch
 
     /**
      * example for prepared statements
-     * 
+     *
      * @param connect
      * @throws SQLException
      */
@@ -72,7 +72,7 @@ public class JDBCBatch
 
     /**
      * Inserts some rows
-     * 
+     *
      * @param conn
      * @throws SQLException
      */
@@ -97,7 +97,7 @@ public class JDBCBatch
 
     /**
      * select statement and print out results in a JDBC result set
-     * 
+     *
      * @param conn
      * @throws SQLException
      */
@@ -120,7 +120,7 @@ public class JDBCBatch
 
     /**
      * example of batch usage within normal statements
-     * 
+     *
      * @param connect
      * @throws SQLException
      */

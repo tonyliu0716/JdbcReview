@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 /**
  * This class shows the main differences between prepared and normal jdbc statements
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCStatements
 {
@@ -27,7 +27,7 @@ public class JDBCStatements
     /**
      * This method shows the main advantages of prepared statements in comparison with normal
      * statements
-     * 
+     *
      * @throws SQLException
      */
     private static void preparedStatement( Connection conn, String name ) throws SQLException

@@ -8,8 +8,8 @@ import java.sql.Statement;
 
 /**
  * This class shows the main SQL operations: Insert, delete, update and select
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCCRUDs
 {
@@ -37,7 +37,7 @@ public class JDBCCRUDs
 
     /**
      * example of select using jdbc statement
-     * 
+     *
      * @param connect
      * @throws SQLException
      */
@@ -61,7 +61,7 @@ public class JDBCCRUDs
 
     /**
      * Inserts some rows, example of insert using jdbc statement
-     * 
+     *
      * @param conn
      * @throws SQLException
      */
@@ -87,7 +87,7 @@ public class JDBCCRUDs
 
     /**
      * Updates rows with the name passed, example of update using jdbc statement
-     * 
+     *
      * @param conn
      * @throws SQLException
      */
@@ -106,7 +106,7 @@ public class JDBCCRUDs
 
     /**
      * Deletes the rows with the name passed, example of row deletion using jdbc example
-     * 
+     *
      * @param conn
      * @throws SQLException
      */

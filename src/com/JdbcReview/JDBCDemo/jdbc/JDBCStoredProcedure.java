@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 /**
  * example, very easy, of usage of stored procedures and callable statements
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCStoredProcedure
 {

@@ -9,8 +9,8 @@ import java.sql.Statement;
 
 /**
  * This class explains the main mechanisms related to transactions and jdbc like rollback and commit
- * 
- * @author dgutierrez-diez
+ *
+ * @author tony
  */
 public class JDBCTransactions
 {
@@ -56,7 +56,7 @@ public class JDBCTransactions
 
     /**
      * deletes all entries for japan
-     * 
+     *
      * @throws SQLException
      * @throws ClassNotFoundException
      */
@@ -81,7 +81,7 @@ public class JDBCTransactions
 
     /**
      * select statement and print out results in a JDBC result set
-     * 
+     *
      * @throws SQLException
      * @throws ClassNotFoundException
      */
@@ -110,7 +110,7 @@ public class JDBCTransactions
 
     /**
      * Inserts a row for japan and updates it right away
-     * 
+     *
      * @param transactions if true, transactions are used and only is commited at the end, if false,
      *            autocommit=true is used
      * @throws SQLException
@@ -163,7 +163,7 @@ public class JDBCTransactions
 
     /**
      * similar to the last method, rollback first transaction and commits the second one
-     * 
+     *
      * @throws SQLException
      * @throws ClassNotFoundException
      */
